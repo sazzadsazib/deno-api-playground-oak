@@ -5,4 +5,4 @@ WORKDIR /app
 COPY . ./
 
 # Added to ENTRYPOINT of base image.
-CMD ["run", "--allow-net", "--allow-read", "--allow-write", "index.js"]
+CMD ["run", "--allow-net", "--allow-read", "--allow-write", "--allow-env","--allow-plugins", "app.ts"]

@@ -1,4 +1,4 @@
-app = "rest-api-deno"
+app = "docX"
 
 
 [[services]]
